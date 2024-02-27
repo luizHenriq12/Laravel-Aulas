@@ -1,0 +1,15 @@
+[2024-02-27 01:15:52] local.ERROR: There are no commands defined in the "mske" namespace.
+
+Did you mean this?
+    make {"exception":"[object] (Symfony\\Component\\Console\\Exception\\NamespaceNotFoundException(code: 0): There are no commands defined in the \"mske\" namespace.
+
+Did you mean this?
+    make at C:\\Users\\UniALFA\\Documents\\laravel\\aula01\\vendor\\symfony\\console\\Application.php:669)
+[stacktrace]
+#0 C:\\Users\\UniALFA\\Documents\\laravel\\aula01\\vendor\\symfony\\console\\Application.php(720): Symfony\\Component\\Console\\Application->findNamespace()
+#1 C:\\Users\\UniALFA\\Documents\\laravel\\aula01\\vendor\\symfony\\console\\Application.php(266): Symfony\\Component\\Console\\Application->find()
+#2 C:\\Users\\UniALFA\\Documents\\laravel\\aula01\\vendor\\symfony\\console\\Application.php(175): Symfony\\Component\\Console\\Application->doRun()
+#3 C:\\Users\\UniALFA\\Documents\\laravel\\aula01\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(201): Symfony\\Component\\Console\\Application->run()
+#4 C:\\Users\\UniALFA\\Documents\\laravel\\aula01\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
+#5 {main}
+"} 
